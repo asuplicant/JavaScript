@@ -60,17 +60,55 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-// .map() :> Método usado em Arrays que permite transformar os elementos do Array original em novos valores
+// MAPEAMENTO.
+// .map() :> Método usado em Arrays que permite transformar os elementos do Array original em novos valores]
 // criando um novo Array SEM modificar o original.
 
 // LISTA DE NOMES DE ALUNOS E NOTAS.
-let alunos = [ 
-    {nome: "Laura", nota: 10},
-    {nome: "Kauê", nota: 10}
-];
+// let alunos = [ 
+//     {nome: "Laura", nota: 10},
+//     {nome: "Kauê", nota: 10}
+// ];
 
 // LISTA DE NOMES.
-let alunoNomes = alunos.map(aluno => aluno.nome);
+// let alunoNomes = alunos.map(aluno => aluno.nome);
 
-console.log(alunoNomes);
- 
+// FUNÇÃO.
+// let alunoNomesDois = alunos.map(function(aluno){
+//     return aluno.nome;
+// })
+
+// let alunoNota = alunos.map(aluno => aluno.nota);
+
+// console.log(alunoNomes);
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// 2. Criar um Array com mensagens personalizadas.
+// let nomes = ["Laura", "Kauê", "Yumi"];
+
+// Olá, Laura!
+// Olá, Kauê!
+// Olá, Yumi!
+
+// let mensagem = nomes.map(itemDoArrayNomes => 'Olá, ${itemDoArrayNomes}');
+// Ou, como outra opção:
+// let mensagem2 = nomes.map(itemDoArrayNomes => "Olá," + itemDoarrayNomes);
+
+// console.log(mensagem);
+
+// 3. Pegar apenas os primeiros caracteres de nomes.
+// let nomes = ["Laura", "Kauê", "Yumi"];
+
+// let inicialNomes = nomes.map(itemNomes => element[0]);
+
+// console.log(inicialNomes);
+
+// 4. Criação de Emails.
+// let emails = [
+//     "laurinhapamaral@gmail.com", "kaueantonio@gmail.com"
+// ];
+
+// let dominios = emails.map(element => element.split("@")[1]);
+
+// console.log(dominios);

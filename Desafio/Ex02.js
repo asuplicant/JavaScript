@@ -2,14 +2,14 @@
 // nome e o preço com R$ formatado.
 
 let produtos = [
-    { nome: "Jujuba", preço: 5.99 },
-    { nome: "Chocolate", preço: 7.49 },
-    { nome: "Pão de forma", preço: 3.75 },
-    { nome: "Óleo", preço: 6.20 }
+  { nome: "Mesa", preco: 70.98 },
+  { nome: "Blusa", preco: 48.90 },
+  { nome: "Caderno", preco: 30.75 },
+  { nome: "Caneta", preco: 5.20 }
 ];
 
 console.log("Lista de produtos:");
 
-produtos.forEach(produto => {
-    console.log(`${produto.nome} - R$ ${produto.preco}`);
+produtos.map(produto => {
+  console.log(`${produto.nome} - R$ ${produto.preco}`);
 });
